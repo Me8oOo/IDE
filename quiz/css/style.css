@@ -1,0 +1,74 @@
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Style */
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+    color: O#fff;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Utility Classes */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-dark {
+    background-color: #2F2F2F;
+
+}
+
+.text-primary {
+    color: O#FED136;
+}
+
+.text-white {
+    color: O#fff;
+}
+
+.navbar {
+    padding: 16px 0;
+}
+
+.navbar .nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav-items .logo a {
+    font-size: 2rem;
+    color: O#FED136;
+    font-weight: bold;
+}
+
+.navbar .nav-items .links ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.navbar .nav-items .links ul li a:hover {
+    color: O#FED136;
+}

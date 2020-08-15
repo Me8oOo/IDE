@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Style */
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7rem;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Utility Classes */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h2 {
+    padding: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-dark {
+    background-color: #2F2F2F;
+
+}
+
+.text-primary {
+    color: O#FED136;
+}
+
+.text-white {
+    color: O#fff;
+}
+
+.navbar {
+    padding: 16px 0;
+}
+
+.navbar .nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav-items .logo a {
+    font-size: 2rem;
+    color: O#FED136;
+    font-weight: bold;
+}
+
+.navbar .nav-items .links ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.navbar .nav-items .links ul li a:hover {
+    color: #FED136;
+}
+
+.showcase {
+    height: 695px;
+
+    background: url('1.jpg') no-repeat center center/cover;
+
+}
+
+.showcase .showcase-text {
+    padding-top: 140px;
+    color: #001100;
+}
+
+.showcase .subheading {
+    font-size: 1.8rem;
+    word-spacing: 8px;
+    font-style: italic;
+    padding: 30px 0;
+    text-shadow: 1px 1px 1px;
+    font-weight: 800;
+
+}
+
+.showcase .showcase-text hr,
+.services hr,
+.about hr,
+.Portofolio {
+    width: 5%;
+    margin: 10px auto;
+    border: 6px solid #fff;
+}
+
+.showcase .showcase-text .mashead-heading {
+    word-spacing: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 35px 0;
+    text-shadow: 1px 1px 1px #fff;
+
+}
+
+.showcase .showcase-text button {
+    font-size: 1.6rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.showcase .showcase-text button:hover {
+    background-color: #2F2F2F;
+    color: #FED136;
+}
+
+/* Services Style */
+.services {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.services h2 .about {
+    font-size: 3rem;
+}
+
+.services hr,
+.contact text-center {
+    margin: 20px auto;
+}
+
+.services .row {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.services .row .col {
+    padding: 20px;
+}
+
+.icon {
+    padding: 20px;
+
+}
+
+.services .row .col .icon {
+    padding: 35px;
+    border-radius: 50%;
+
+}
+
+.services .row .col h3 {
+    margin: 25px 0;
+    font-size: 2rem;
+}
+
+.about {
+    padding: 85px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.about button {
+    margin-top: 20px;
+    padding: 16px;
+    background: #ffffff;
+    color: #000;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.Portofolio {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+
+}
+
+.portofolio .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 0 0px;
+    display: flex;
+}
+
+.portofolio .p {
+    margin: 20px 0 45px 0;
+}
+
+.portofolio .row .col {
+    margin: -6px 0;
+    display: inline-block;
+}
+
+.portofolio .row .col :hover {
+    background: rgba(244, 98, 58, 0.9) !important;
+    opacity: 0.5;
+    text-align: center;
+}
+
+
+.contact p {
+    margin-bottom: 40px;
+
+}
+
+
+.contact .row {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.section-container {
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    display: inline-block;
+    justify-content: center;
+    padding: 8rem 0;
+}
+
+
+
+.footer {
+    padding: 20px;
+    margin-top: 5px;
+}
